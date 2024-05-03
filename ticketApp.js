@@ -19,7 +19,7 @@ let app = Vue.createApp({
 		getTickets() {
             this.showTable = true
 			// filter data form given ticket
-			this.tickets = this.results.filter( (ticket) => item.ticket == this.ticket );
+			this.tickets = this.results.filter( (item) => item.ticket == this.ticket );
 			
 		}
    },
