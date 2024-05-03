@@ -1,9 +1,8 @@
 let app = Vue.createApp({
     data() {     // returns an object of data
         return {
-            results: [], 
-            tickets: [], 
-            showTable:false      // all data items retrieved from the json file
+            results: [], // all data items retrieved from the json file
+            showTable:false      
         }
     },
 	created() {      // section executes as page loads
@@ -27,4 +26,4 @@ let app = Vue.createApp({
     
 })
 
-app.mount('#main')   //in which div to mount the vue app
+app.mount('#ticketApp')   //in which div to mount the vue app
